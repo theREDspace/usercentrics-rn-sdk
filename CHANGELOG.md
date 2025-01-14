@@ -1,5 +1,12 @@
 [Release Notes](https://docs.usercentrics.com/cmp_in_app_sdk/latest/about/history/)
 
+### 2.18.5 - January 14, 2025
+
+## iOS Bug Fixes
+
+* Remove the following Objc methods that are missing JS backing: `showCMP`, `getUSPData`, `getTCFString`
+
+
 ### 2.18.4 - January 07, 2025
 
 ## Android Bug Fixes
