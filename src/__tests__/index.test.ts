@@ -36,7 +36,6 @@ jest.mock("react-native", () => {
     RN.NativeModules.RNUsercentricsModule = {
         configure: jest.fn(),
         isReady: jest.fn(),
-        showCMP: jest.fn(),
         showFirstLayer: jest.fn(),
         restoreUserSession: jest.fn(),
         getControllerId: jest.fn(),
@@ -44,7 +43,6 @@ jest.mock("react-native", () => {
         getConsents: jest.fn(),
         getCMPData: jest.fn(),
         getUserSessionData: jest.fn(),
-        getUSPData: jest.fn(),
         getTCFData: jest.fn(),
         getAdditionalConsentModeData: jest.fn(),
         changeLanguage: jest.fn(),
